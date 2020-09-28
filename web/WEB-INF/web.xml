@@ -16,6 +16,9 @@
         <servlet-name>ArithmeticCalculatorServlet</servlet-name>
         <url-pattern>/arithmeticcalculator</url-pattern>
     </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>agecalculator</welcome-file>
+    </welcome-file-list>
     <session-config>
         <session-timeout>
             30
